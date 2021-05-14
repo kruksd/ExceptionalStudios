@@ -8,6 +8,7 @@ class TaskSeven extends StatefulWidget {
 class _TaskSevenState extends State<TaskSeven> {
   @override
   Widget build(BuildContext context) {
+    //Task 7: Send Dummy Notification
     return Scaffold();
   }
 }

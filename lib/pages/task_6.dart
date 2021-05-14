@@ -8,6 +8,7 @@ class TaskSix extends StatefulWidget {
 class _TaskSixState extends State<TaskSix> {
   @override
   Widget build(BuildContext context) {
+    //Task 6: Fetch Data from localdb.
     return Scaffold();
   }
 }
