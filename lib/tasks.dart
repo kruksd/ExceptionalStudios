@@ -1,3 +1,4 @@
+import 'package:assignment_app/pages/task_1.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:hexcolor/hexcolor.dart';
@@ -52,7 +53,12 @@ class TaskList extends StatelessWidget {
                             Icons.play_arrow_outlined,
                             color: Colors.white,
                           ),
-                          onPressed: () {},
+                          onPressed: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => TaskOne()));
+                          },
                         ),
                       ),
                     ],
