@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class TaskFour extends StatefulWidget {
+  static const routeName = 'task-4';
   @override
   _TaskFourState createState() => _TaskFourState();
 }
